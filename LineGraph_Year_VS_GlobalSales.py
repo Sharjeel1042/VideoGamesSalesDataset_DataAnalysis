@@ -13,3 +13,4 @@ plt.title('Year VS Global Sales',fontdict={'font':'DejaVu Sans Mono','fontsize':
 plt.xlabel("Year",fontdict={'fontsize':15})
 plt.ylabel("Global Sales\n(million)",fontdict={'fontsize':15})
 plt.show()
+plt.savefig('LineGraph_Year_VS_GlobalSales.png')
