@@ -15,7 +15,7 @@ plt.ylabel("Number Of Games Released",fontdict={'font':'DejaVu Sans','fontsize':
 for bar in bars:
     height=bar.get_height()
     ax.set_xticks(year)
-    ax.set_xticklabels(year,fontdict={'font':'Georgia','fontsize':7})
+    ax.set_xticklabels(year,fontdict={'font':'Georgia','fontsize':7,'fontweight':'bold'})
     ax.text(
         bar.get_x()+bar.get_width()/2,
         height,
@@ -26,3 +26,4 @@ for bar in bars:
     )
 
 plt.show()
+plt.savefig('barGraph_Year_VS_TotalGamesReleased.png')
