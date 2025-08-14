@@ -30,3 +30,4 @@ for bar in bars:
     )
 
 plt.show()
+plt.savefig('barGraph_AvgGlobalSales VS Genre.png')
