@@ -1,7 +1,6 @@
 from main import dfNonTime
 import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
+
 dfNonTime.info()
 
 sales=dfNonTime.groupby('genre')['name'].count()
