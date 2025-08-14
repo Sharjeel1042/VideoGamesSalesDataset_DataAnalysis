@@ -6,7 +6,6 @@ def clean_df(df):
 
     df['name'] = df['name'].fillna('Unknown')
     df['platform'] = df['platform'].fillna('Unknown')
-    df['genre'] = df['genre'].fillna('Unknown')
     df['publisher'] = df['publisher'].fillna('Unknown')
     df['na_sales'] = df['na_sales'].fillna(0)
     df['eu_sales'] = df['eu_sales'].fillna(0)
@@ -26,6 +25,7 @@ def clean_df(df):
 if __name__ == "__main__":
     df = pd.read_csv('Video_Games_Sales.csv')
     df = clean_df(df)
+    dfNonTime = df.dropna(subset=['genre'])
     df.to_csv('Non-TimeAnalysis.csv', index=False)
     dfTime = df.dropna(subset=['year_of_release'])
     dfTime.to_csv('Time-BasedAnalysis.csv', index=False)
