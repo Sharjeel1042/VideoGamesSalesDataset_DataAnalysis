@@ -17,5 +17,6 @@ plt.yticks(fontname='DejaVu Sans',fontsize=10)
 for i,value in enumerate(plot.values):
     plt.text(i,value,f'{value:.2f}',ha='center',va='bottom',fontdict={'fontsize':12.5})
 
-plt.show()
 plt.savefig('BarGraph_Top3HighestSellingPlatforms.png')
+plt.show()
+
