@@ -12,5 +12,6 @@ sales.plot(kind='line',marker='x',color='green',markeredgecolor='red')
 plt.title('Year VS Global Sales',fontdict={'font':'DejaVu Sans Mono','fontsize':20})
 plt.xlabel("Year",fontdict={'fontsize':15})
 plt.ylabel("Global Sales\n(million)",fontdict={'fontsize':15})
-plt.show()
 plt.savefig('LineGraph_Year_VS_GlobalSales.png')
+plt.show()
+
