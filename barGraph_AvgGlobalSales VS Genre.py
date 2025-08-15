@@ -29,5 +29,6 @@ for bar in bars:
     va='bottom'
     )
 
-plt.show()
+
 plt.savefig('barGraph_AvgGlobalSales VS Genre.png')
+plt.show()
