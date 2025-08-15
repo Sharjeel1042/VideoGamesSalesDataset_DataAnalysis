@@ -16,6 +16,6 @@ plt.ylabel('Global Slaes\n(millions)')
 for i,value in enumerate(plot.values):
     plt.text(i,value,f'{value:.2f}',ha='center',va='bottom')
 
-
+plt.grid(axis='y',color='black',linestyle='solid',linewidth=0.5)
 plt.savefig('barGraph_Top10GamesGlobally.png',dpi=150)
 plt.show()
