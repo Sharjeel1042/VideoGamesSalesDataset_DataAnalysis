@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from main import dfNonTime
 import matplotlib.pyplot as plt
 
