@@ -12,5 +12,5 @@ for text in plt.gca().texts:
     text.set_fontsize(12)
     text.set_fontweight('bold')
 
-plt.show()
 plt.savefig('PieChart_GamesPerGenre.png')
+plt.show()
