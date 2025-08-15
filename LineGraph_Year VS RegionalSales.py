@@ -10,8 +10,9 @@ plt.plot(sales.index,sales['other_sales'],label="Others",color='black',marker='o
 plt.xlabel('Year',fontdict={'fontsize':15,'font':'DejaVu Sans Mono'})
 plt.ylabel('Sales\n(million)',fontdict={'fontsize':15,'font':'DejaVu Sans Mono'})
 plt.legend()
-plt.show()
 plt.savefig('LineGraph_Year VS RegionalSales.png',dpi=150)
+plt.show()
+
 
 
 
