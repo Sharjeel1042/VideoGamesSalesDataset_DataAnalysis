@@ -16,5 +16,7 @@ sales_series.plot(kind='pie',autopct='%1.1f%%',startangle=90,
 plt.title('Global Sales By Region',fontdict={'font':'DejaVu Sans Mono','fontsize':20,'weight':'bold'})
 plt.ylabel('')
 
-plt.show()
+
 plt.savefig('PieChart_GlobalSalesByRegion.png',dpi=150)
+plt.show()
+
